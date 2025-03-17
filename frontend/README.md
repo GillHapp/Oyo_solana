@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# OYO 🏠  
 
-First, run the development server:
+OYO is a decentralized property rental platform built on **Sonic Chain**, a rollup of **Solana**. This project enables property owners to list, update, and manage their rental properties, while users can browse and book properties seamlessly.  
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 🚀 Tech Stack  
+- **Solana** & **Sonic Chain** (Layer-2 Rollup)  
+- **Anchor** (Solana Smart Contracts)  
+- **Solana Playground** (Development & Testing)  
+- **JavaScript** (Frontend & Backend)  
+- **Next.js** (Web Application)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏡 Features  
+- **Property Listing:** Sellers can upload rental properties.  
+- **Property Management:** Sellers can update or delete their listings.  
+- **Booking System:** Users can browse and book available properties.  
+- **Decentralized & Secure:** Built on Sonic Chain for efficiency and low fees.  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 📦 Installation & Setup  
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/GillHapp/Oyo_solana/
+   cd Oyo_solana
+   ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+2. **Install Dependencies**  
+   ```sh
+   npm install
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. **Set Up Solana CLI & Anchor**  
+   Ensure you have Solana and Anchor installed:  
+   ```sh
+   solana --version
+   anchor --version
+   ```
 
-## Learn More
+4. **Run the Development Server**  
+   ```sh
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Deployment  
+- **Smart Contracts:** Deployed on Sonic Chain using **Anchor**.  
+- **Frontend:** Hosted on [[Vercel].](https://oyo-solana.vercel.app/)  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Future Improvements  
+- Wallet integration for seamless transactions.  
+- Enhanced search and filtering for properties.  
+- Reviews & ratings for properties.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤝 Contributing  
+Feel free to contribute! Open an issue or submit a pull request.  
 
-## Deploy on Vercel
+## 📜 License  
+MIT License  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
